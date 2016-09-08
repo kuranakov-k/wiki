@@ -1,0 +1,89 @@
+html, body {
+  font-size: 28px;
+  padding: 0;
+  margin: 0;
+  background-color: #2c3e50; }
+
+.click {
+  padding: 50px 0;
+  text-align: center;
+  color: #ddd;
+  text-transform: uppercase;
+  cursor: pointer; }
+
+h1 {
+  color: #ddd; }
+
+#searchIco {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: url(../img/search-icon.png) center center no-repeat;
+  z-index: 2; }
+
+.block {
+  text-align: center;
+  opacity: 0;
+  background-color: transparent;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+  margin-top: 0; }
+
+#searchTerm {
+  margin-bottom: 10px; }
+
+form a,
+form button[type=submit] {
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  font-size: 80%;
+  text-decoration: none;
+  color: #333;
+  background-color: #fff;
+  -webkit-border-radius: 10px;
+    -webkit-border-radius-border-radius: 10px;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  width: 280px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border: none; }
+
+form a:hover,
+form button[type=submit]:hover {
+  color: #333;
+  text-decoration: none; }
+
+#output {
+  background-color: transparent;
+  width: 90%;
+  margin: 0 auto; }
+
+#output .well {
+  background-color: #fff; }
+  #output .well #output .well:hover {
+    -webkit-box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.4);
+      -webkit-box-shadow-box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.4); }
+  #output .well #output .well h2 {
+    margin-top: 0;
+    color: #333;
+    font-style: normal; }
+  #output .well #output .well a {
+    color: #555;
+    font-size: 15px;
+    font-style: italic; }
+    #output .well #output .well a #output .well a:hover {
+      text-decoration: none;
+      color: #222; }
+  #output .well #output .well p {
+    margin-bottom: 0; }
+
+.random {
+  margin-bottom: 10px; }
+
+@media only screen and (max-width: 600px) {
+  #searchTerm {
+    width: 80%; } }
